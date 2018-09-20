@@ -1,0 +1,32 @@
+
+<form id="677554785">
+<property name="name" value="manager-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="date_from" type="InputText" id="1307719810">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;from (date)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="date/from"/>
+<property name="outputBinding" value="date/from"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="approve" type="CheckBox" id="1144246487">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approve (approve)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="approve"/>
+<property name="outputBinding" value="approve"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="date_to" type="InputText" id="1385702212">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;to (date)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="date/to"/>
+<property name="outputBinding" value="date/to"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="approve" name="#9BCAFA" type="basicType" outId="approve" value="java.lang.Boolean" id="approve"/>
+<dataHolder inputId="date" name="#BBBBBB" type="dataModelerEntry" outId="date" value="com.myteam._0092018firstdemo.date" id="date"/>
+</form>

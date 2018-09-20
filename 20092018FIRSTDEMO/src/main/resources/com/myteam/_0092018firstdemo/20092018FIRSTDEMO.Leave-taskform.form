@@ -1,0 +1,45 @@
+
+<form id="986482651">
+<property name="name" value="20092018FIRSTDEMO.Leave-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="date_to" type="InputText" id="636909254">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;to (date)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="date/to"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="approve" type="CheckBox" id="1277961626">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approve (approve)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="approve"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="id" type="InputText" id="1442746520">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="date_from" type="InputText" id="962838">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;from (date)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="date/from"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="name" type="InputText" id="792816042">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (name)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="approve" value="java.lang.Boolean" id="approve"/>
+<dataHolder inputId="" name="#BBBBBB" type="dataModelerEntry" outId="date" value="com.myteam._0092018firstdemo.date" id="date"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="id" value="java.lang.String" id="id"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="name" value="java.lang.String" id="name"/>
+</form>
